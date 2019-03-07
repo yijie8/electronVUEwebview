@@ -1,9 +1,9 @@
 {
   "name": "electron-vue-webview",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "dongguanjie <dongguanjie@tripglobal.cn>",
   "description": "An electron-vue project",
-  "license": null,
+  "license": "",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
@@ -49,7 +49,8 @@
       "icon": "build/icons/icon.ico"
     },
     "linux": {
-      "icon": "build/icons"
+      "icon": "build/icons",
+      "category": "Utility"
     }
   },
   "dependencies": {
